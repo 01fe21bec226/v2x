@@ -1,0 +1,16 @@
+{
+    "node1": {
+        "name": "Node 1",
+        "cert_file": "certificates/Node 1_CERT.pem",
+        "key_file": "certificates/Node 1_KR.pem",
+        "dh_public_key_file": "certificates/Node 2_DH_PUBLIC_KEY.pem",
+        "signature_file": "certificates/Node 2_DH_SIGNATURE.pem"
+    },
+    "node2": {
+        "name": "Node 2",
+        "cert_file": "certificates/Node 2_CERT.pem",
+        "key_file": "certificates/Node 2_KR.pem",
+        "dh_public_key_file": "certificates/Node 1_DH_PUBLIC_KEY.pem",
+        "signature_file": "certificates/Node 1_DH_SIGNATURE.pem"
+    }
+}
